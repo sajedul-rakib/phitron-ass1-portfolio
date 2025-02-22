@@ -1,0 +1,33 @@
+* {
+  background-color: #1a1a1a !important;
+}
+
+.experience-card {
+  background-color: #6c757d !important;
+}
+
+.submit-btn {
+  background-color: #6c757d !important;
+}
+.p-text-align {
+  text-align: justify !important;
+}
+
+@media screen and (max-width: 576px) {
+  .contact-container {
+    width: 100% !important;
+    padding: 0 20px;
+  }
+  .carousel-slider {
+    width: 75% !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .contact-container {
+    width: 100% !important;
+  }
+  .carousel-slider {
+    width: 75% !important;
+  }
+}
