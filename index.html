@@ -10,30 +10,40 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <!-- bootstrap css file -->
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Sajedul Islam Rakib - Flutter Developer</title>
 </head>
 
+
 <body>
     <div class="container">
-
         <div class="container-fluid d-flex flex-row justify-content-between py-4 px-0">
-            <div class="navbar-brand m-auto m-md-0 m-lg-0 m-xl-0 m-xxl-0 text-info">
+            <div class="navbar-brand  text-info">
                 <h2>Rakib<span class="fs-1">.</span></h2>
             </div>
             <nav
-                class="navbar-nav d-none d-md-flex d-lg-flex d-xl-flex d-xxl-flex d-flex flex-row gap-3 align-items-center text-light fw-normal">
-                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                <a href="https://drive.google.com/file/d/1Ye2JtogHk3T0x3QVbXH50Qv_kNbzKsGA/view?usp=sharing"
-                    class="link-underline link-underline-opacity-0 text-light btn btn-info border-0 bg-info"
-                    target="_blank" role="button">
-                    Resume <i class="fa-solid fa-download bg-info"></i>
-                </a>
+                class="navbar navbar-expand-lg navbar-expand-md d-flex flex-row gap-3 align-items-center text-light fw-normal">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars text-light fs-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item"><a href="#" class="nav-link menu ">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link menu ">Portfolio</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link menu ">Skills</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link menu ">About</a></li>
+                        <a href="https://drive.google.com/file/d/1Ye2JtogHk3T0x3QVbXH50Qv_kNbzKsGA/view?usp=sharing"
+                            class="link-underline link-underline-opacity-0 text-light btn btn-info border-0 bg-info"
+                            target="_blank" role="button">
+                            Resume <i class="fa-solid fa-download bg-info"></i>
+                        </a>
+                    </ul>
+                </div>
             </nav>
         </div>
 
@@ -297,9 +307,8 @@
         </div>
     </div>
 
-
-    <script src="../bootstrap/js/bootstrap.js"></script>
-    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <!-- bootstrap js file -->
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>

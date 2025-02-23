@@ -12,6 +12,13 @@
 .p-text-align {
   text-align: justify !important;
 }
+.menu {
+  color: #fff;
+}
+
+.menu:hover {
+  color: aqua;
+}
 
 @media screen and (max-width: 576px) {
   .contact-container {
